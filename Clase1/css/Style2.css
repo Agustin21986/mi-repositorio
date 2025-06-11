@@ -1,0 +1,77 @@
+.body {
+    font-family: "Underdog", system-ui;
+    background-color: rgba(241, 120, 215, 0.226);
+}
+.Concert1{
+    text-align-last: center;
+  justify-items: center;
+    margin-bottom: 20px;
+    background-color: rgba(255, 0, 0, 0.345);
+    padding: 15px 15px;
+    border-radius: 8px;
+    border-style: dashed;
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+
+}
+.Concert2{
+    text-align-last: center;
+  justify-items: center;
+    margin-bottom: 20px;
+    background-color: rgba(255, 0, 0, 0.345);
+    padding: 15px 15px;
+    border-radius: 8px;
+    border-style: dashed;
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+.Concert3{
+    text-align-last: center;
+  justify-items: center;
+    margin-bottom: 20px;
+    background-color: rgba(255, 0, 0, 0.345);
+    padding: 15px 15px;
+    border-radius: 8px;
+    border-style: dashed;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.Concert4{
+    text-align-last: center;
+  justify-items: center;
+    margin-bottom: 20px;
+    background-color: rgba(255, 0, 0, 0.345);
+    padding: 15px 15px;
+    border-radius: 8px;
+    border-style: dashed;
+    grid-row: 2/3;
+    grid-column: 4/5;
+}
+.base{
+    display: grid;
+    grid-template-columns: 40px 1fr 40px 1fr 40px;
+    grid-template-rows: 1fr 1fr;
+   
+}
+.heading{
+    text-align: center;
+}
+li{
+    list-style-type: none;
+}
+a:link{
+ color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color:black
+}
+a:active{
+    color: black;
+}
+@media (max-width: 600px) {
+    .conte{ grid-template-columns: 1fr;}
+}
